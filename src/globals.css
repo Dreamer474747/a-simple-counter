@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'VazirMedium';
+    src: url('../public/fonts/Vazir-Medium.eot');
+    src: url('../public/fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/Vazir-Medium.woff2') format('woff2'),
+        url('../public/fonts/Vazir-Medium.woff') format('woff'),
+        url('../public/fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+	font-family: VazirMedium;
+	direction: rtl;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 0.5rem;
+}
+
+h2 {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	font-size: 1.2rem;
+}
+
+h3 {
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin: 0;
+}
